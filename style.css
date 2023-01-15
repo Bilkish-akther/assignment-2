@@ -1,0 +1,477 @@
+/* import Work Sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* for all type of font family is 'Work Sans' */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav bar design start */
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 0 200px;
+    align-items: center;
+}
+
+/* nav title style */
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+/* nav elements design */
+.nav-elements ul {
+    display: flex;
+    column-gap: 50px;
+}
+.nav-elements ul li {
+    list-style: none;
+}
+
+.nav-elements ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* navigation design end*/
+
+
+/* banner design start */
+
+.banner-container {
+    margin-top: 100px;
+    text-align: center;
+}
+.banner-details {
+    margin-bottom: 50px;
+    padding: 0 300px;
+}
+.banner-title {
+    margin-top: 0;
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.banner-picture img {
+    width:75%;
+    height: 75%;
+    margin-bottom: 45px;
+}
+/* primary button design*/
+.primary-btn {
+    margin-top: 32px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+}
+
+/* banner design end */
+
+
+/* main section design start*/
+
+.feature-section {
+    margin-top: 85px;
+    padding: 0 70px 0px 90px;
+    
+}
+.feature-container {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+    flex: 1;
+}
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.feature-pictures picture img {
+    width: 80%;
+   
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #727272;
+}
+.feature-title span {
+    color: #131313;
+    font-weight: 700;
+}
+
+ .feature-title .feature-word { 
+    color: #FF900E;
+    font-weight: 700;
+}
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.second-feature-section {
+    margin: 130px 0; 
+   
+    
+}
+.second-feature-container {
+     margin: 0 100px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+
+    /* for button issue */
+    position: relative;
+}
+.second-feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.second-feature-title-description {
+    margin-top: 15px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.second-feature-details {
+   
+     padding-top: 25px;
+}
+
+.second-feature-detail-part {
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.second-feature-detail-part-work {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 12px 18px 12px 12px; 
+    margin-bottom: 20px;
+}
+
+.second-feature-work-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 10px;
+}
+.second-feature-work-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second-feature-image img {
+    width: 100%;
+    height: 98%;
+}
+
+.experience-btn {
+    background: #FF900E;
+    color: #FFFFFF;
+    border: 0;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    border-radius: 8px;
+}
+.experience-btn .btn-written {
+    padding: 25px;
+}
+
+.experience-btn .btn-written h3 {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.experience-btn .btn-written p {
+    font-weight: 500;
+    font-size: 25px;
+}
+.some-facts {
+    margin-bottom: 180px;
+}
+
+.some-facts-container {
+    margin: 0 170px;
+}
+.some-fact-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.some-fact-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.some-fact-achievement {
+    margin-top: 100px;
+    margin-left: 18px;
+   
+    
+}
+
+.achievement ul {
+    display: flex;
+    column-gap: 125px;
+    text-align: center;
+}
+.achievement ul li {
+    list-style: none;
+    padding: 45px 0;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 245px;
+}
+.achievement ul li:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.achievement ul li h4 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+.achievement ul li p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sponsor-section {
+    margin-bottom: 130px;
+}
+
+.sponsor-container {
+    margin: 0 170px;
+}
+
+.sponsor-details {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.sponsor-lists {
+    display: flex;
+    column-gap: 110px;
+
+}
+
+.sponsor-item img {
+    width: 100.33%;
+    height: 50px;
+    mix-blend-mode: luminosity;
+    /* convert the logo to grayscale */
+    filter: grayscale(100%);
+}
+
+/* main section design  end*/
+
+
+/* ----------------
+axtra -work- start 
+-----------------*/
+/* about section styles */
+.about{
+    background: #faf4ee;
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
+
+    /* Footer-start */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.footer-description {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px 0; 
+   
+}
+/* Footer-end */
+
+
+
+/* --------------------------------
+    responsive  style for mobile     
+ ---------------------------------*/
+@media  only screen and (max-width:576px) {
+   .navigation-container{
+    padding: 0;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+   }
+   .nav-element ul{
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 15px;
+   }
+   .banner-container{
+    margin-top: 60px;
+    text-align: center;
+} 
+.banner-details{
+    padding: 0;
+}
+.feature-section{
+    padding: 0;
+}
+.feature-container{
+    flex-direction: column;
+    text-align: center;
+}
+.feature{
+    grid-template-columns: repeat(1,1fr)
+}
+.feature-details{
+    margin-top: 20px;
+}
+.second-feature-container{
+    margin: 0;
+    /* position: none; */
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+}
+.second-feature-section{
+    display: flex;
+    justify-content: center;
+}
+.second-feature-image img{
+    margin-top: 20px;
+}
+.some-facts-container{
+    margin: 0;
+    text-align: center;
+}
+.experience{
+    display: none;
+}
+.achievement ul{
+    
+    display: grid;
+    grid-template-columns: 1 fr;
+    grid-row-gap: 30px;
+    justify-items: center;
+    
+}
+.achievement ul li{
+    width: 60%;
+}
+
+.sponsor-container{
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.sponsor-lists{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.about-info-container{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.about{
+    padding: 20px;
+    background-color: chocolate;
+}
+}
+    
+
+
+   
+
+
+
+
+
+
+
+
